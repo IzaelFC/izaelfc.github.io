@@ -59,6 +59,8 @@ button {
 
     main {
         display: block;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .imagem_e_botao {
@@ -71,5 +73,9 @@ button {
     button {
         margin: 0px;
         margin-left: 40px;
+    }
+    
+    header {
+        font-size: 15px;
     }
 }
