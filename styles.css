@@ -17,6 +17,8 @@ main {
 
     background: #310032;
     border-radius: 20px;
+    padding-bottom: 85%;
+    position: fixed
 }
 
 p {
