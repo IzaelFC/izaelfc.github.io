@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #310032;
+    border-radius: 20px;
+}
+
+p {
+    color: white;
+    background-color: #FA00FF;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    background-color: transparent;
+}
+
+button {
+    background-color: #49A8FF;
+    color: white;
+    border-radius: 20px;
+    margin-left: 75px;
+    margin-right: 10px;
+    width: 150px;
+    border: none;
+}
+
+.imagem *{
+    display: grid;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-size: cover ;
+}
+
+.tudo {
+    background-color: red;
+}
+
+
+.final {
+    background-color: red;
+}
