@@ -54,13 +54,23 @@ button {
     margin-right: 10px;
 }
 
+audio {
+    position: fixed;
+    background-color: rgb(142, 163, 246);
+    align-self: flex-end;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    flex: 1;
+    color: red;
+}
 
 @media screen and (max-width: 700px) { 
 
     main {
         display: block;
-        margin-left: 50px;
-        margin-right: 50px;
+        font-size: 14px;
     }
 
     .imagem_e_botao {
@@ -73,9 +83,5 @@ button {
     button {
         margin: 0px;
         margin-left: 40px;
-    }
-    
-    header {
-        font-size: 15px;
     }
 }
