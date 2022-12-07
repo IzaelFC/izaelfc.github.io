@@ -54,6 +54,7 @@ button {
     margin-right: 10px;
 }
 
+
 audio {
     position: fixed;
     background-color: rgb(142, 163, 246);
@@ -66,9 +67,11 @@ audio {
     color: red;
 }
 
+
+
 @media screen and (max-width: 700px) {
-    h1 {
-        font-size: 25px;
+    header {
+        font-size: 20px;
     }
 
     main {
@@ -90,3 +93,7 @@ audio {
         margin-left: 40px;
     }
 }
+
+/* * {
+    border: red 1px solid;
+} */
