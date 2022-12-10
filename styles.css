@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
 body {
     background-color: black;
     margin: 0px;
@@ -9,6 +13,7 @@ header {
     color: white;
     margin-top: 30px;
     font-size: 35px;
+    font-family: 'Russo One', sans-serif;
 }
 
 main {
@@ -27,15 +32,11 @@ main {
 
 p {
     color: white;
-    background-color: #FA00FF;
-    padding-left: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
     text-align: center;
-}
-
-.texto {
-    background-color: transparent;
+    font-family: 'Inter', sans-serif;
 }
 
 button {
@@ -48,26 +49,29 @@ button {
     border: none;
 }
 
-.imagem_e_botao {
-    gap: 10px;
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.imagem {
+    justify-content: center;
+    display: grid;
+    align-items: center;
     margin-top: 10px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
-
 audio {
     position: fixed;
-    background-color: rgb(142, 163, 246);
     align-self: flex-end;
     width: 100%;
     left: 0;
     bottom: 0;
     height: 30px;
     flex: 1;
-    color: red;
 }
-
-
 
 @media screen and (max-width: 700px) {
     header {
@@ -80,20 +84,4 @@ audio {
         margin-left: 70px;
         margin-right: 70px;
     }
-
-    .imagem_e_botao {
-        justify-content: center;
-        display: grid;
-        align-items: center;
-        margin: 0px;
-    }
-    
-    button {
-        margin: 0px;
-        margin-left: 40px;
-    }
 }
-
-/* * {
-    border: red 1px solid;
-} */
